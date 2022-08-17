@@ -1,8 +1,7 @@
-import './App.css';
+import React from "react"
+import { Home } from '../modules/home/home';
 
-function App() {
-  return (
-  )
-}
+export const App = () => (
+  <Home />
+)
 
-export default App;
